@@ -52,4 +52,4 @@ while True:
 
         hook.send(embed=embed)
 
-    time.sleep(2)
+    time.sleep(20)
