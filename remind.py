@@ -23,8 +23,8 @@ while True:
 
     game_date = soup.find_all('span', class_='gameDate')[0].string
 
-    if not last_game_date == game_date:
-        last_game_date == game_date
+    if last_game_date != game_date:
+        last_game_date = game_date
 
         game_name = soup.find_all('span', class_='gameName')[0].string
 
